@@ -1,17 +1,17 @@
 /**
- * customcomplete widget for multi-level lists suggestions
+ * multi-level-autocomplete widget for multi-level lists suggestions
  * 
  * lists and sub-lists could be configured separately to be async or sync, arrays or callbacks ...
  * sub-lists are by default lazy loaded 
  * 
  * see defaultConfig for full all supported settings.
- * see customcompleteHelper.js for example of using.
+ * see multi-level-autocomplete-helper.js for example of using.
  * 
  * 
  * Dependence : jquery-ui-1.12.1
  */
 
-$.widget( "custom.customcomplete", $.ui.autocomplete, {
+$.widget( "custom.multi-level-autocomplete", $.ui.autocomplete, {
 	options: {
 		sources: null
 	},
