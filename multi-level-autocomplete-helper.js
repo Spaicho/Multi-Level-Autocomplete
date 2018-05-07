@@ -1,10 +1,10 @@
 /**
- * 	File containing helper functions to use customcomplete widget
+ * 	File containing helper functions to use multi-level-autocomplete widget
  * 
  */
     var savedUserFindValue = $("#savedUserFindValue");
 
-function attachCustomComplete(input,select){
+function attachMultiLevelAutocomplete(input,select){
 	   
 	//inputs for search
     var userInput = $("#criterionInput");
@@ -26,7 +26,7 @@ function attachCustomComplete(input,select){
     var findBy = $(userSelect).val();
     
     
-    $( input ).customcomplete({
+    $( input ).multi-level-autocomplete({
 		autoFocus: false, 
 		delay		: 100,
 		minLength	: 0, 
@@ -98,11 +98,11 @@ function attachCustomComplete(input,select){
     })
     .click(function(event){
     	if(! isNonEditableSearchView){
-    		$( input ).customcomplete("search");
+    		$( input ).multi-level-autocomplete("search");
     	}
     })
     ;
-    //$( input ).customcomplete("destroy");
+    //$( input ).multi-level-autocomplete("destroy");
 }
 
 function getMinLengthPerSearchMode (){
