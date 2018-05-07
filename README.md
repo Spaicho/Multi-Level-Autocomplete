@@ -3,4 +3,4 @@ Multi-Level-Autocomplete is Javascript widget that make it easy to render collap
 
 ![multi-level-autocomplete](/multi-level-autocomplete.png?raw=true "Optional Title")
 
-![multi-level-autocomplete](/customComplete-illustration.png?raw=true "Optional Title")
+![multi-level-autocomplete](/multi-level-autocomplete-illustration.png?raw=true "Optional Title")
